@@ -1,0 +1,19 @@
+.result-list{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 10px;
+    /* padding: 10px; */
+    margin-top: 10px;
+    max-height: 400px;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 8px #ddd;
+}
+
+.result-item:hover{
+    background-color: rgb(213, 204, 204);
+}
+.result-item{
+    padding: 0px 5px 0px 5px;
+    border-radius: 2px;
+    margin: 3px 0px 3px 0px;
+}

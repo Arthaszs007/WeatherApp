@@ -1,0 +1,4 @@
+GET http://localhost:3000/api/hi
+
+###
+GET http://localhost:3000/api/db/ca
