@@ -16,7 +16,8 @@ const SearchBar = ({
 
     // fetch db with keywords as "city"
     const dataByResponse = await fetch(
-      `${process.env.DEPLOY_URL}/api/db/${value}`
+      `${process.env.DEPLOY_URL}/api/db/${value}`,
+      { mode: "no-cors" }
     );
     if (!dataByResponse.ok) {
       throw new Error(`faild to fetch city with name${value}`);
