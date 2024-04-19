@@ -13,8 +13,11 @@ const SearchBar = ({
     if (!value) {
       return null;
     }
+
     // fetch db with keywords as "city"
-    const dataByResponse = await fetch(`http://localhost:3000/api/db/${value}`);
+    const dataByResponse = await fetch(
+      `${process.env.DEPLOY_URL}/api/db/${value}`
+    );
     if (!dataByResponse.ok) {
       throw new Error(`faild to fetch city with name${value}`);
     }

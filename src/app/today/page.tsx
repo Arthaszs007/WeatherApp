@@ -33,7 +33,7 @@ const Today = () => {
           // console.log(data);
         }
       });
-  }, [cityName]);
+  }, [cityName, lat, lon]);
 
   // get airQulity data, data will be refreshed when weather is changed
   useEffect(() => {
@@ -65,7 +65,7 @@ const Today = () => {
       return "Hazardous";
     }
   };
-  if (!weather) {
+  if (!weather || !air) {
     return <div>loading</div>;
   }
 

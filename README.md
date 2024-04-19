@@ -1,4 +1,4 @@
-This is a next.js project,ues the nextauth.jx as third_party authoried , neon as database and depoly on vercel.
+This is a next.js project,ues the nextauth.jx as third_party authoried , neon as database and depoly on vercel， css + tailwind + daisyUI and redux.
 
 ## Getting Started
 
