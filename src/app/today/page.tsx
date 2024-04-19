@@ -39,7 +39,7 @@ const Today = () => {
   useEffect(() => {
     if (weather && weather.sys) {
       fetch(
-        `http://api.openweathermap.org/data/2.5/air_pollution/history?lat=${lat}&lon=${lon}&start=${start}&end=${end}&appid=${process.env.WEATHER_KEY}`
+        `https://api.openweathermap.org/data/2.5/air_pollution/history?lat=${lat}&lon=${lon}&start=${start}&end=${end}&appid=${process.env.WEATHER_KEY}`
       )
         .then((res) => res.json())
         .then((data) => {
