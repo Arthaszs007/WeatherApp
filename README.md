@@ -1,5 +1,7 @@
 This is a next.js project,ues the nextauth.jx as third_party authoried , neon as database and depoly on vercel， css + tailwind + daisyUI and redux.
 
+vercel :https://weather-app-iota-seven-19.vercel.app/
+
 ## Getting Started
 
 1. befor run this code, should install as
