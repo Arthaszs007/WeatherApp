@@ -39,7 +39,9 @@ const Further = () => {
           </div>
         </div>
       ) : (
-        <>log in to check more detail</>
+        <div className="my-20 text-red-400 text-center">
+          log in to check more detail
+        </div>
       )}
     </>
   );
